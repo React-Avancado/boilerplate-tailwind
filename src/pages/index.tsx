@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Block from 'components/Block'
+import Footer from 'components/Footer'
 
 export default function Home() {
   return (
@@ -52,23 +52,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex justify-center items-center w-full h-24 border-t">
-        <a
-          className="flex justify-center items-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            className="ml-2 h-4"
-            width={100}
-            height={100}
-          />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
