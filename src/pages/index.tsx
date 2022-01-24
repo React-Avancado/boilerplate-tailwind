@@ -4,13 +4,13 @@ import Footer from 'components/Footer'
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center py-2 min-h-screen">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col flex-1 justify-center items-center px-20 w-full text-center">
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
@@ -20,12 +20,12 @@ export default function Home() {
 
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
+          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
             pages/index.tsx
           </code>
         </p>
 
-        <div className="flex flex-wrap justify-around items-center mt-6 max-w-4xl sm:w-full">
+        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <Block
             href="https://nextjs.org/docs"
             title="Documentation"
